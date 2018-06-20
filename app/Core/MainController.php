@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\Core;
 
 use App\Core\View;
 
@@ -13,8 +13,8 @@ class MainController
         $this->view = new View();
     }
 
-    public function defaultPage()
+    public function index()
     {
-        echo 'defaultPage';
+        echo 'root defaultPage ';
     }
 }

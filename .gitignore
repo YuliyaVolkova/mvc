@@ -3,3 +3,4 @@ app/Core/config.php
 debug
 vendor
 1.txt
+.env

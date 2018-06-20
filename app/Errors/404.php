@@ -1,11 +1,10 @@
-404 NOT FOUND
+404 NOT FOUND!!
 <br>
 <?php if (file_exists('debug')) : ?>
 Error: <br><pre>
-<?php
-echo 'line: ' . $e->getLine() . '<br>';
-echo 'File: ' . $e->getFile() . '<br>';
-echo $e->getMessage() . '<br>';
-echo $e->getTraceAsString();
-
+    <?php
+    echo 'line: ' . $e->getLine() . '<br>';
+    echo 'File: ' . $e->getFile() . '<br>';
+    echo $e->getMessage() . '<br>';
+    echo $e->getTraceAsString();
 endif;

@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use App\MainController;
+use App\Core\MainController;
 use App\Models\User;
 
 class Courses extends MainController
@@ -19,5 +19,10 @@ class Courses extends MainController
         $data['allUsers'] = $users;
         $data['moreData'] = 'moreData: more info...';
         $this->view->render('courseUsers', $data);
+    }
+    public function env()
+    {
+        echo MODE;
+        echo getenv('DB_HOST');
     }
 }

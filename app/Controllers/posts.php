@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use App\MainController;
+use App\Core\MainController;
 use App\Models\User;
 
 class Posts extends MainController

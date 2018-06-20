@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use App\MainController;
+use App\Core\MainController;
 
 class Users extends MainController
 {
@@ -13,6 +13,6 @@ class Users extends MainController
 
     public function create()
     {
-        echo 'Users create interface';
+        echo 'Users new create interface';
     }
 }
